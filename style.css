@@ -1,0 +1,70 @@
+.wrapper {
+  padding: 0px 50px;
+}
+.Myname {
+  height: 100px;
+  width: 300px;
+  float: right;
+  margin: 5px 0px 0px 5px;
+  overflow: visible;
+}
+.header {
+  height: 100px;
+  margin-bottom: 0px;
+  overflow: visible;
+}
+.Myname h1,
+.Myname h4 {
+  text-align: right;
+  margin: 8px 0px 10px 0px;
+}
+.pic img {
+  width: 100%;
+  height: 450px;
+}
+
+@media screen and (min-width: 992px) {
+  .article, .contact {
+    padding: 12px;
+    margin: 10px;
+    width: 33.33%;
+  }
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .contact
+  {
+    display: flex;
+  }
+}
+
+.article {
+  padding: 12px;
+  margin: 10px;
+  width: 100%;
+}
+
+.article img {
+  max-width: 326px;
+  min-height: 238.3px;
+}
+a{
+  text-decoration: none;
+  color: #1896D4;
+
+}
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+}
+h2{
+  float: right;
+  margin: 0%;
+}
+
+@media screen and (min-width: 992px){
+  .contact{
+    display: inline-block;
+  }
+}
